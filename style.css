@@ -1,0 +1,259 @@
+
+/*Universal Styles*/
+body{
+    background-color: #f2e9d8;
+    font-size: 16px;
+    width: 100%;
+    width: 100%;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ h3{
+    font-family: "Taviraj";
+    font-size: 28px;
+ }
+ 
+ 
+ /*Nav Bar*/
+ header{
+    display: flex;
+    position: fixed;
+    background-color: #012626;
+    color: #f2e9d8;
+    font-size: 1rem;
+    width: 100%;
+    height: 4.313rem;
+    z-index: 1;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Didact Gothic";
+    top: 0;
+    left: 0;
+ 
+ 
+ }
+ .logo{
+    display: flex;
+    align-content: center;
+    margin: 0px;
+ }
+ 
+ 
+ header .bar{
+    display: flex;
+    align-content: center;
+ 
+ 
+ }
+ nav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    align-content: center;
+ }
+ 
+ 
+ nav ul{
+   display: flex;
+  
+ }
+ 
+ 
+ nav li{
+    list-style: none;
+    text-decoration: none;
+    padding-left: 30px;
+ 
+ 
+   
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ a:visited{
+    color: #f2e9d8;
+    text-decoration: none;
+ }
+ 
+ 
+ a:link{
+    color: #f2e9d8;
+    text-decoration: none;
+ }
+ 
+ 
+ .button{
+    background-color: #f29544;
+    padding: 3px 15px;
+    border: black;
+    border-radius: 4px;
+ }
+ 
+ 
+ /*Hero*/
+ #hero{
+    background-image: url("./images/the-library-wallpaper.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f2e9d8;
+    margin-bottom: 40px;
+    margin-top: 40px;
+ }
+ 
+ 
+ .hero-text-container{
+    background-color: hsla(11, 53%, 36%, .75);
+    padding: 10px 150px;
+ }
+ 
+ 
+ #hero h3{
+    font-family: "Didact Gothic";
+    font-size: 1.5rem;
+    align-content: center;
+    text-align: center;
+    margin-top: 0px;
+ 
+ 
+   
+ }
+ #hero h1{
+    font-family: "Taviraj";
+    font-size: 41px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    letter-spacing: 5px;
+ }
+ 
+ 
+ 
+ 
+ /*Our Story*/
+ 
+ 
+ #our-story{
+    background-color: #012626;
+    color: #f2e9d8;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+ }
+ .our-story-text{
+    padding-right: 200px;
+ }
+ 
+ 
+ 
+ 
+ #our-story p {
+    width: 350px;
+    font-family: 'Didact Gothic', 'Courier New', Courier, monospace;
+    word-spacing: 5px;
+    font-size: 17px;
+ }
+ 
+ 
+ 
+ 
+ .our-story-content{
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+ }
+ .our-story-content img{
+    width: 600px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ /*Staff Picks*/
+ 
+ 
+ #staff h3{
+    color: #012626;
+    text-align: center;
+    /*margin-top: 0;*/
+ }
+ 
+ 
+ #staff h4{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+ }
+ 
+ 
+ 
+ 
+ .staff-inner-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #8c3d2b;
+    align-content: center;
+    justify-content: space-around;
+    width: 1300px;
+    height: 700px;
+    margin: auto;
+    padding: 40px 0 40px 0;
+ 
+ 
+ }
+ 
+ 
+ .books{
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    position: relative;
+    padding: 20px 0 30px 0;
+    margin: 20px 50px;
+    border: 2px solid #012626;
+    font-family: 'Didact Gothic', 'Courier New', Courier, monospace;
+ 
+ 
+ }
+ 
+ 
+ .books img{
+    width: 150px;
+    height: 220px;
+    border: 1px solid #012626;
+    margin-top: 5 px;
+  }
+ .books p{
+    width: 200px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ /*Contact Us*/
+ 
+ 
